@@ -1,6 +1,10 @@
 import unittest
 
 import time
+import datetime
+
+def createNewDate():
+    return datetime.datetime.now()
 
 def multiply(x, y):
     return x * y
